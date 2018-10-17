@@ -1,0 +1,194 @@
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Projekt.exe.config
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x64\cudart64_42_9.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x64\npp64_42_9.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x64\opencv_core242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x64\opencv_ffmpeg242_64.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x64\opencv_highgui242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x64\opencv_imgproc242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x86\cudart32_42_9.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x86\npp32_42_9.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x86\opencv_core242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x86\opencv_ffmpeg242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x86\opencv_highgui242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\x86\opencv_imgproc242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Projekt.exe
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Projekt.pdb
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Emgu.CV.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Emgu.CV.UI.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Emgu.Util.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\ZedGraph.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Emgu.CV.pdb
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Emgu.CV.xml
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Emgu.CV.UI.pdb
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Emgu.CV.UI.xml
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Emgu.Util.pdb
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Emgu.Util.xml
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\ZedGraph.xml
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\zh-CN\Emgu.CV.UI.resources.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\zh-CN\ZedGraph.resources.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.CreateDirectoryStructureForm.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.FindObjectsInProject.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.PreviewForImageDravObj.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.ProjectOptionsForm.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.SetCsvOptions.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.AddBoolAttribute.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.AddMultiAttribute.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.AddClassForm.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.ClassBoolProperty.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.ClassMultiProperty.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.CreateImageFromDrawObj.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.CreateTrainingData.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.Form1.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.PictureAttribute.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.ProgressForm.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.Properties.Resources.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.SetNameOutputFile.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.SetObjProperties.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.SettingArticifialDataEmpty.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.SettingArticifialDataReflection.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.SettingArticifialData.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.csproj.GenerateResource.Cache
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.exe
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.pdb
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.csprojResolveAssemblyReference.cache
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Projekt.exe.manifest
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Release\Projekt.application
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.exe.manifest
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Release\Projekt.application
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Projekt.exe.config
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.exe
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.pdb
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\x64\cudart64_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\x64\npp64_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\x86\cudart32_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\x86\npp32_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image001.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image002.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image003.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image004.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image005.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image006.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image007.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image008.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image009.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image010.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image011.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image012.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image013.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image014.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image015.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image016.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image017.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image018.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image019.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image020.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.html
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Projekt.exe.manifest
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Projekt.application
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Projekt.exe
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Projekt.pdb
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.CreateDirectoryStructureForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.DefinePicturePropertyForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.FindObjectsInProject.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.PreviewForImageDravObj.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.ProjectOptionsForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.SetCsvOptions.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.AddBoolAttribute.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.AddMultiAttribute.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.AddClassForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.ClassBoolProperty.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.ClassMultiProperty.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.CreateImageFromDrawObj.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.CreateNegativeTrainingData.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.MainWindowApplication.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.PictureAttribute.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.ProgressForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Properties.Resources.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.SetNameOutputFile.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.SetObjProperties.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.SettingArticifialDataEmpty.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.SettingArticifialDataReflection.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.SettingArticifialData.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.csproj.GenerateResource.Cache
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.exe.manifest
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.application
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\ZedGraph.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.CV.pdb
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.CV.xml
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.CV.UI.pdb
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.CV.UI.xml
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.Util.pdb
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.Util.xml
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\ZedGraph.xml
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\zh-CN\ZedGraph.resources.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image001.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image002.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image003.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image004.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image005.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image006.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image007.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image008.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image009.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image010.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image011.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image012.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image013.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image014.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image015.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image016.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image017.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image018.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image019.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.files\image020.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Help\help.html
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\x64\cudart64_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\x64\npp64_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\x86\cudart32_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\x86\npp32_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Projekt.exe.config
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Projekt.exe.manifest
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Projekt.application
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Projekt.exe
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Projekt.pdb
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\ZedGraph.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.CV.xml
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.CV.UI.xml
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.Util.xml
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.csprojResolveAssemblyReference.cache
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.CreateDirectoryStructureForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.DefinePicturePropertyForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.FindObjectsInProject.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.JoinBbsForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.PreviewForImageDravObj.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.ProjectOptionsForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.SetCsvOptions.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.TrackEditorForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.AddBoolAttribute.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.AddMultiAttribute.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.AddClassForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.ClassBoolProperty.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.ClassMultiProperty.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.CreateImageFromDrawObj.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.CreateNegativeTrainingData.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.MainWindowApplication.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.PictureAttribute.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.ProgressForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Properties.Resources.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.SetNameOutputFile.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.SetObjProperties.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.SettingArticifialDataEmpty.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.SettingArticifialDataReflection.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.UserControls.SettingArticifialData.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.csproj.GenerateResource.cache
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.csproj.CoreCompileInputs.cache
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.exe.manifest
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.application
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.csproj.CopyComplete
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.exe
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.pdb
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.CV.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.CV.UI.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.Util.dll

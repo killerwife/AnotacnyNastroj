@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Projekt.ClassGenerator" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAABAAIAAAAAgAgABIAAAEEAABAAAgAAAIAAARA=</HashCode>
+      <FileName>ClassGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.BoundingBox" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAgAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawObjects\BoundingBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.DrawObject" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAgAAAAABQAAQAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>DrawObjects\DrawObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Painting" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQgAAAAAgQAAAAECAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>DrawObjects\Painting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Polyline" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawObjects\Polyline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.BaseFigure" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAJAAgAAAAgAAAACAQAQAAQAAQAAAAAAAgACCSA=</HashCode>
+      <FileName>Figure\BaseFigure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.FrameFigure" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQAAAAAAAAAAAAAAAQAAAAAQAAAAAAgAAAAAA=</HashCode>
+      <FileName>Figure\FrameFigure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ImageFigure" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAQAAAAQQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figure\ImageFigure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.AddClassForm" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAwACAAQBAQCAbAAAIGABAqAgAEADSAIgAAAAA=</HashCode>
+      <FileName>Forms\AddClassForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.CreateImageFromDrawObj" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8UFohEYIJTErDxGCPKWBQMCOoCQY51HEMGE1OywCLDY=</HashCode>
+      <FileName>Forms\CreateImageFromDrawObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.CreateTrainingData" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAIAACABDBADAAGAAAACAAAAAgAIACAAAAQAAAA=</HashCode>
+      <FileName>Forms\CreateTrainingData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.FindObjectsInProject" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAAAAADAEABEgAACAAAACAIAAEQAEQCkCIAAAAAA=</HashCode>
+      <FileName>Forms\FindObjectsInProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ObjectClass" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEEAAEAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\FindObjectsInProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Form1" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Hd5AWvs6+rcAf1vBwGrKlpMSwtBLtvrjmvENdFAwTv0=</HashCode>
+      <FileName>Forms\Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.PreviewForImageDravObj" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAQQACAqAgABgECAAgACAAAQKQAAAGAqAAAAAAQ=</HashCode>
+      <FileName>Forms\PreviewForImageDravObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ProgressForm" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAQACAAAAcAAgCIAAWCQAAAAEAEAAAQQAAAAQA=</HashCode>
+      <FileName>Forms\ProgressForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ProjectOptionsForm" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAggAACAQABRCQACAAIACAACAREgADigiACBAQCA=</HashCode>
+      <FileName>Forms\ProjectOptionsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ProjectOptions" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQgkAAAAASAAABgAACAAAAAgAAGAAIggBBAACACBA=</HashCode>
+      <FileName>Forms\ProjectOptionsForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Projekt.StructureForPen" Collapsed="true">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAg=</HashCode>
+      <FileName>Forms\ProjectOptionsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.SetCsvOptions" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAABaAABBEAAACAAAgDIAAAUEAEACAAMAAAAAA=</HashCode>
+      <FileName>Forms\SetCsvOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.SetNameOutputFile" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAQAASCAABAAAAGACCADEAIIMAAUAGAgIDIAAgg=</HashCode>
+      <FileName>Forms\SetNameOutputFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.SetObjProperties" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAGAEBBAECACAAYASAAgACEAEBKQAIgAABRA=</HashCode>
+      <FileName>Forms\SetObjProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.GenerateData" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAgAQhAAAgAAgCQAAAgAAAAIQAAIAQAAACIAAFY=</HashCode>
+      <FileName>GenerateData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ImportExport" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImportExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ImportExportCSV" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImportExportCSV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ImportExportXML" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAIAAAAAAAEAAA=</HashCode>
+      <FileName>ImportExportXML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ObjectProperties" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAIAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ObjectProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.PictureProperty" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAABIAAAAAAAEAAAAAABCAA=</HashCode>
+      <FileName>PictureProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Program" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Project" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FEiSCIFAABgkEQQEBIABiQAAEiAoAAASARKAigAAAgA=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ThumbPanel" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>TmpPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.AddBoolAttribute" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAEABCAAACAAAACAACCAAAAAAAIAAEAAAA=</HashCode>
+      <FileName>UserControls\AddBoolAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.AddMultiAttribute" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAEABgAAACAAAACAACCAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>UserControls\AddMultiAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ClassBoolProperty" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAAACAAAACAAACgAAACAAAAAAAAAAAAgAEABAI=</HashCode>
+      <FileName>UserControls\ClassBoolProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.ClassMultiProperty" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAACAAACCAAIAAAACgAAICAAAAAAAAEAAAQAAABAI=</HashCode>
+      <FileName>UserControls\ClassMultiProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.PictureAttribute" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAACCAAIAAAACAAAICAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\PictureAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.SettingArticifialData" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EYAAIAIAAGAAAAAAAAiAAgAiAAQAAQAAAYAGEQAAAAA=</HashCode>
+      <FileName>UserControls\SettingArticifialData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Projekt.SettingArticifialDataReflection" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAAAGBAAAAAAACAAgIiAAQgAwAAAYAEAQAAAAQ=</HashCode>
+      <FileName>UserControls\SettingArticifialDataReflection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Projekt.Properties.Resources" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQgAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt.Properties.Settings" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Projekt.EDrawObject" Collapsed="true">
+    <Position X="10.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAQAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\EDrawObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Projekt.EToolItem" Collapsed="true">
+    <Position X="12" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAACAQAAACEIAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Enums\EToolItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Projekt.FindObjectEventHandler" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

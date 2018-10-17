@@ -1,0 +1,564 @@
+D:\Projekt\Projekt\bin\Debug\Projekt.exe.config
+D:\Projekt\Projekt\bin\Debug\x86\cudart32_42_9.dll
+D:\Projekt\Projekt\bin\Debug\x86\npp32_42_9.dll
+D:\Projekt\Projekt\bin\Debug\x86\opencv_core242.dll
+D:\Projekt\Projekt\bin\Debug\x86\opencv_highgui242.dll
+D:\Projekt\Projekt\bin\Debug\Projekt.exe
+D:\Projekt\Projekt\bin\Debug\Projekt.pdb
+D:\Projekt\Projekt\bin\Debug\Emgu.CV.dll
+D:\Projekt\Projekt\bin\Debug\Emgu.CV.UI.dll
+D:\Projekt\Projekt\bin\Debug\Emgu.Util.dll
+D:\Projekt\Projekt\bin\Debug\ZedGraph.dll
+D:\Projekt\Projekt\bin\Debug\Emgu.CV.pdb
+D:\Projekt\Projekt\bin\Debug\Emgu.CV.xml
+D:\Projekt\Projekt\bin\Debug\Emgu.CV.UI.pdb
+D:\Projekt\Projekt\bin\Debug\Emgu.CV.UI.xml
+D:\Projekt\Projekt\bin\Debug\Emgu.Util.pdb
+D:\Projekt\Projekt\bin\Debug\Emgu.Util.xml
+D:\Projekt\Projekt\bin\Debug\ZedGraph.xml
+D:\Projekt\Projekt\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+D:\Projekt\Projekt\bin\Debug\zh-CN\ZedGraph.resources.dll
+D:\Projekt\Projekt\obj\Debug\Projekt.Form1.resources
+D:\Projekt\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+D:\Projekt\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+D:\Projekt\Projekt\obj\Debug\Projekt.exe
+D:\Projekt\Projekt\obj\Debug\Projekt.pdb
+D:\Projekt\Projekt\obj\Debug\Projekt.AddAttribute.resources
+D:\Projekt\Projekt\obj\Debug\Projekt.AddClassForm.resources
+D:\Projekt\Projekt\obj\Debug\Projekt.PropertyFrame.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Projekt.exe.config
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.exe
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.pdb
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x86\cudart32_42_9.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x86\npp32_42_9.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x86\opencv_core242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x86\opencv_highgui242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Projekt.exe
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Projekt.pdb
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Emgu.CV.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Emgu.CV.UI.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Emgu.Util.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Emgu.CV.pdb
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Emgu.CV.xml
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Emgu.CV.UI.pdb
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Emgu.CV.UI.xml
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Emgu.Util.pdb
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Emgu.Util.xml
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x86\opencv_imgproc242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\ZedGraph.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\ZedGraph.xml
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\zh-CN\ZedGraph.resources.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x64\cudart64_42_9.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x64\npp64_42_9.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x64\opencv_core242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x64\opencv_highgui242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x64\opencv_imgproc242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x64\opencv_ffmpeg242_64.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\x86\opencv_ffmpeg242.dll
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Projekt.exe.manifest
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Projekt.application
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.exe.manifest
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.application
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.html
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image007.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image008.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image009.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image010.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image011.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image012.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image013.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image015.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.CreateDirectoryStructureForm.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.FindObjectsInProject.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.PreviewForImageDravObj.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.ProjectOptionsForm.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.SetCsvOptions.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.UserControls.AddBoolAttribute.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.UserControls.AddMultiAttribute.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.AddClassForm.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.UserControls.ClassBoolProperty.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.UserControls.ClassMultiProperty.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.CreateImageFromDrawObj.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.CreateNegativeTrainingData.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.MainWindowApplication.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.UserControls.PictureAttribute.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.ProgressForm.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.SetNameOutputFile.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.SetObjProperties.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataEmpty.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataReflection.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialData.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image001.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image002.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image003.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image004.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image005.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image006.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image014.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\obj\Debug\Projekt.Forms.DefinePicturePropertyForm.resources
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image016.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image017.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image018.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image019.jpg
+D:\Škola\Výška\Inžinier\Projekt\Program\Projekt\bin\Debug\Help\help.files\image020.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image001.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image002.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image003.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image004.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image005.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image006.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image007.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image008.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image009.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image010.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image011.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image012.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image013.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image014.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image015.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image016.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image017.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image018.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image019.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.files\image020.jpg
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Help\help.html
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\x64\cudart64_42_9.dll
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\x64\npp64_42_9.dll
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\x86\cudart32_42_9.dll
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\x86\npp32_42_9.dll
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Projekt.exe.manifest
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Projekt.application
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Projekt.exe
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Projekt.pdb
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Emgu.CV.dll
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Emgu.Util.dll
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\ZedGraph.dll
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Emgu.CV.xml
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\bin\Debug\Emgu.Util.xml
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.CreateDirectoryStructureForm.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.DefinePicturePropertyForm.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.FindObjectsInProject.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.PreviewForImageDravObj.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.ProjectOptionsForm.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.SetCsvOptions.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.UserControls.AddBoolAttribute.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.UserControls.AddMultiAttribute.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.AddClassForm.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.UserControls.ClassBoolProperty.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.UserControls.ClassMultiProperty.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.CreateImageFromDrawObj.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.CreateNegativeTrainingData.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.MainWindowApplication.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.UserControls.PictureAttribute.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.ProgressForm.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.SetNameOutputFile.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.Forms.SetObjProperties.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataEmpty.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataReflection.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialData.resources
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.exe.manifest
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.application
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.exe
+C:\Users\Dindo\Google Drive\projekt\Anotacny nastroj\Zdrojove kody\Projekt\obj\Debug\Projekt.pdb
+d:\ptx\zamestnanec\vyucba\!projektova vyucba\2015-2016\projekt obraz\Dindoffer\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.config
+d:\ptx\zamestnanec\vyucba\!projektova vyucba\2015-2016\projekt obraz\Dindoffer\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe
+d:\ptx\zamestnanec\vyucba\!projektova vyucba\2015-2016\projekt obraz\Dindoffer\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.pdb
+d:\projekt dataset\nastroje\Anotačný nástroj 160726 - x64\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.config
+d:\projekt dataset\nastroje\Anotačný nástroj 160726 - x64\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe
+d:\projekt dataset\nastroje\Anotačný nástroj 160726 - x64\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image001.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image002.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image003.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image004.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image005.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image006.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image007.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image008.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image009.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image010.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image011.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image012.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image013.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image014.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image015.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image016.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image017.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image018.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image019.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image020.jpg
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.html
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x64\cudart64_42_9.dll
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x64\npp64_42_9.dll
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x86\cudart32_42_9.dll
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x86\npp32_42_9.dll
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.manifest
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.application
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.pdb
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\ZedGraph.dll
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.xml
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.Util.xml
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateDirectoryStructureForm.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.DefinePicturePropertyForm.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.FindObjectsInProject.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.PreviewForImageDravObj.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.ProjectOptionsForm.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetCsvOptions.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.AddBoolAttribute.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.AddMultiAttribute.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.AddClassForm.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.ClassBoolProperty.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.ClassMultiProperty.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateImageFromDrawObj.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateNegativeTrainingData.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.MainWindowApplication.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.PictureAttribute.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.ProgressForm.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetNameOutputFile.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetObjProperties.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataEmpty.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataReflection.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialData.resources
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe.manifest
+C:\Users\Jakub\Desktop\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.application
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image001.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image002.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image003.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image004.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image005.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image006.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image007.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image008.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image009.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image010.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image011.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image012.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image013.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image014.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image015.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image016.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image017.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image018.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image019.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image020.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.html
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x64\cudart64_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x64\npp64_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x86\cudart32_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x86\npp32_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.manifest
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.application
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.pdb
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\ZedGraph.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.xml
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.Util.xml
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateDirectoryStructureForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.DefinePicturePropertyForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.FindObjectsInProject.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.PreviewForImageDravObj.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.ProjectOptionsForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetCsvOptions.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.AddBoolAttribute.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.AddMultiAttribute.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.AddClassForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.ClassBoolProperty.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.ClassMultiProperty.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateImageFromDrawObj.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateNegativeTrainingData.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.MainWindowApplication.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.PictureAttribute.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.ProgressForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetNameOutputFile.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetObjProperties.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataEmpty.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataReflection.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialData.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe.manifest
+C:\Users\Jakub\Documents\Skola2\Projekt1\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.application
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.config
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.pdb
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image001.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image002.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image003.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image004.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image005.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image006.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image007.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image008.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image009.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image010.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image011.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image012.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image013.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image014.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image015.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image016.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image017.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image018.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image019.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image020.jpg
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.html
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x64\cudart64_42_9.dll
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x64\npp64_42_9.dll
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x86\cudart32_42_9.dll
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x86\npp32_42_9.dll
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.manifest
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.application
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.pdb
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\ZedGraph.dll
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.xml
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.UI.xml
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.Util.xml
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateDirectoryStructureForm.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.DefinePicturePropertyForm.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.FindObjectsInProject.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.PreviewForImageDravObj.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.ProjectOptionsForm.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetCsvOptions.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.AddBoolAttribute.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.AddMultiAttribute.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.AddClassForm.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.ClassBoolProperty.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.ClassMultiProperty.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateImageFromDrawObj.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateNegativeTrainingData.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.MainWindowApplication.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.PictureAttribute.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.ProgressForm.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetNameOutputFile.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetObjProperties.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataEmpty.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataReflection.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialData.resources
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe.manifest
+E:\anotacny_zaloha\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.application
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image001.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image002.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image003.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image004.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image005.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image006.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image007.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image008.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image009.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image010.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image011.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image012.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image013.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image014.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image015.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image016.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image017.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image018.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image019.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image020.jpg
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.html
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x64\cudart64_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x64\npp64_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x86\cudart32_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x86\npp32_42_9.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.manifest
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.application
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.pdb
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\ZedGraph.dll
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.xml
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.Util.xml
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateDirectoryStructureForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.DefinePicturePropertyForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.FindObjectsInProject.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.PreviewForImageDravObj.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.ProjectOptionsForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetCsvOptions.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.AddBoolAttribute.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.AddMultiAttribute.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.AddClassForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.ClassBoolProperty.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.ClassMultiProperty.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateImageFromDrawObj.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateNegativeTrainingData.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.MainWindowApplication.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.PictureAttribute.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.ProgressForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetNameOutputFile.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetObjProperties.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataEmpty.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataReflection.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialData.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe.manifest
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.application
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.JoinBbsForm.resources
+C:\Users\Jakub\Documents\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.TrackEditorForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image001.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image002.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image003.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image004.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image005.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image006.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image007.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image008.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image009.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image010.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image011.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image012.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image013.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image014.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image015.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image016.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image017.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image018.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image019.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.files\image020.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Help\help.html
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x64\cudart64_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x64\npp64_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x86\cudart32_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\x86\npp32_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.config
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe.manifest
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.application
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.exe
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Projekt.pdb
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\ZedGraph.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.xml
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.UI.xml
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.Util.xml
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateDirectoryStructureForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.DefinePicturePropertyForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.FindObjectsInProject.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.JoinBbsForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.PreviewForImageDravObj.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.ProjectOptionsForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetCsvOptions.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.TrackEditorForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.AddBoolAttribute.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.AddMultiAttribute.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.AddClassForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.ClassBoolProperty.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.ClassMultiProperty.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateImageFromDrawObj.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.CreateNegativeTrainingData.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.MainWindowApplication.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.PictureAttribute.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.ProgressForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetNameOutputFile.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.Forms.SetObjProperties.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataEmpty.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataReflection.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialData.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csproj.GenerateResource.cache
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe.manifest
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.application
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.csproj.CopyComplete
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.exe
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Debug\Projekt.pdb
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.CV.UI.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Debug\Emgu.Util.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.CreateDirectoryStructureForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.DefinePicturePropertyForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.FindObjectsInProject.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.JoinBbsForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.PreviewForImageDravObj.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.ProjectOptionsForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.SetCsvOptions.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.TrackEditorForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.UserControls.AddBoolAttribute.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.UserControls.AddMultiAttribute.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.AddClassForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.UserControls.ClassBoolProperty.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.UserControls.ClassMultiProperty.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.CreateImageFromDrawObj.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.CreateNegativeTrainingData.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.MainWindowApplication.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.UserControls.PictureAttribute.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.ProgressForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.SetNameOutputFile.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.Forms.SetObjProperties.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataEmpty.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialDataReflection.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.UserControls.SettingArticifialData.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.csproj.GenerateResource.cache
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.exe.manifest
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.exe
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.pdb
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image001.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image002.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image003.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image004.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image005.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image006.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image007.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image008.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image009.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image010.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image011.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image012.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image013.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image014.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image015.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image016.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image017.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image018.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image019.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.files\image020.jpg
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Help\help.html
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\x64\cudart64_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\x64\npp64_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\x86\cudart32_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\x86\npp32_42_9.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Projekt.exe.config
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Projekt.exe.manifest
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Projekt.application
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Projekt.exe
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Projekt.pdb
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Emgu.CV.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Emgu.CV.UI.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Emgu.Util.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\ZedGraph.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Emgu.CV.xml
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Emgu.CV.UI.xml
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\bin\Debug\Emgu.Util.xml
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.application
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\githubProject\anotacnynastroj-x86ax64\Projekt\obj\Debug\Projekt.csproj.CopyComplete

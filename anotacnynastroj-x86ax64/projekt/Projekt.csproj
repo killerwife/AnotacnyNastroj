@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7033E51-32C6-4032-8001-F9C786AB0D2F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Projekt</RootNamespace>
+    <AssemblyName>Projekt</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\kukucin\Desktop\publ\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A91FA2D1CFAAF0C4CC5FC1DBE23853D5D55B7F86</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Projekt_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV">
+      <HintPath>..\..\..\..\..\..\Sťahovanie\libemgucv-windows-universal-2.4.10.1940\bin\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\..\..\..\..\..\Sťahovanie\libemgucv-windows-universal-2.4.10.1940\bin\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util">
+      <HintPath>..\..\..\..\..\..\Sťahovanie\libemgucv-windows-universal-2.4.10.1940\bin\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompareObj.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="Enums\EDrawObject.cs" />
+    <Compile Include="Enums\EImageFormat.cs" />
+    <Compile Include="Enums\EImportExportFormat.cs" />
+    <Compile Include="Enums\EToolItem.cs" />
+    <Compile Include="Enums\ETransformType.cs" />
+    <Compile Include="Enums\ETypeOfSortDir.cs" />
+    <Compile Include="ExternalMethodForRecognition.cs" />
+    <Compile Include="Forms\CreateDirectoryStructureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CreateDirectoryStructureForm.Designer.cs">
+      <DependentUpon>CreateDirectoryStructureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DefinePicturePropertyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DefinePicturePropertyForm.Designer.cs">
+      <DependentUpon>DefinePicturePropertyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FindObjectsInProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FindObjectsInProject.Designer.cs">
+      <DependentUpon>FindObjectsInProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JoinBbsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JoinBbsForm.Designer.cs">
+      <DependentUpon>JoinBbsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PreviewForImageDravObj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PreviewForImageDravObj.Designer.cs">
+      <DependentUpon>PreviewForImageDravObj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProjectOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProjectOptionsForm.Designer.cs">
+      <DependentUpon>ProjectOptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportImport\ImportExport.cs" />
+    <Compile Include="ExportImport\ImportExportCSV.cs" />
+    <Compile Include="DrawObjects\Polyline.cs" />
+    <Compile Include="Forms\SetCsvOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SetCsvOptions.Designer.cs">
+      <DependentUpon>SetCsvOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TrackEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TrackEditorForm.Designer.cs">
+      <DependentUpon>TrackEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IBaseUseControlArtifSeting.cs" />
+    <Compile Include="Interfaces\IExternalUseProject.cs" />
+    <Compile Include="SettingOfTransformation\SettingArtifTransf4Params.cs" />
+    <Compile Include="SettingOfTransformation\SettingArtifTransfBase.cs" />
+    <Compile Include="SettingOfTransformation\SettingArtifTransfBlur.cs" />
+    <Compile Include="SettingOfTransformation\SettingArtifTransfNoise.cs" />
+    <Compile Include="SettingOfTransformation\SettingArtifTransfRefl.cs" />
+    <Compile Include="SettingOfTransformation\SettingArtifTransfRoMoSc.cs" />
+    <Compile Include="SettingOfTransformation\SettingArtifTransfSharpen.cs" />
+    <Compile Include="UserControls\AddBoolAttribute.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\AddBoolAttribute.Designer.cs">
+      <DependentUpon>AddBoolAttribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AddMultiAttribute.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\AddMultiAttribute.Designer.cs">
+      <DependentUpon>AddMultiAttribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddClassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddClassForm.Designer.cs">
+      <DependentUpon>AddClassForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawObjects\BoundingBox.cs" />
+    <Compile Include="UserControls\ClassBoolProperty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ClassBoolProperty.Designer.cs">
+      <DependentUpon>ClassBoolProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassGenerator.cs" />
+    <Compile Include="UserControls\ClassMultiProperty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ClassMultiProperty.Designer.cs">
+      <DependentUpon>ClassMultiProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CreateImageFromDrawObj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CreateImageFromDrawObj.Designer.cs">
+      <DependentUpon>CreateImageFromDrawObj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CreateNegativeTrainingData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CreateNegativeTrainingData.Designer.cs">
+      <DependentUpon>CreateNegativeTrainingData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawObjects\DrawObject.cs" />
+    <Compile Include="Forms\MainWindowApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainWindowApplication.Designer.cs">
+      <DependentUpon>MainWindowApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Figure\FrameFigure.cs" />
+    <Compile Include="GenerateData.cs" />
+    <Compile Include="ExportImport\ImportExportXML.cs" />
+    <Compile Include="Figure\ImageFigure.cs" />
+    <Compile Include="ObjectProperties.cs" />
+    <Compile Include="DrawObjects\Painting.cs" />
+    <Compile Include="Figure\BaseFigure.cs" />
+    <Compile Include="UserControls\PictureAttribute.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PictureAttribute.Designer.cs">
+      <DependentUpon>PictureAttribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PictureProperty.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Forms\ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\SetNameOutputFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SetNameOutputFile.Designer.cs">
+      <DependentUpon>SetNameOutputFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SetObjProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SetObjProperties.Designer.cs">
+      <DependentUpon>SetObjProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingArticifialDataEmpty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingArticifialDataEmpty.Designer.cs">
+      <DependentUpon>SettingArticifialDataEmpty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingArticifialDataReflection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingArticifialDataReflection.Designer.cs">
+      <DependentUpon>SettingArticifialDataReflection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingArticifialData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingArticifialData.Designer.cs">
+      <DependentUpon>SettingArticifialData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TmpPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\CreateDirectoryStructureForm.resx">
+      <DependentUpon>CreateDirectoryStructureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DefinePicturePropertyForm.resx">
+      <DependentUpon>DefinePicturePropertyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FindObjectsInProject.resx">
+      <DependentUpon>FindObjectsInProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JoinBbsForm.resx">
+      <DependentUpon>JoinBbsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PreviewForImageDravObj.resx">
+      <DependentUpon>PreviewForImageDravObj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProjectOptionsForm.resx">
+      <DependentUpon>ProjectOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SetCsvOptions.resx">
+      <DependentUpon>SetCsvOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TrackEditorForm.resx">
+      <DependentUpon>TrackEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AddBoolAttribute.resx">
+      <DependentUpon>AddBoolAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AddMultiAttribute.resx">
+      <DependentUpon>AddMultiAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddClassForm.resx">
+      <DependentUpon>AddClassForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ClassBoolProperty.resx">
+      <DependentUpon>ClassBoolProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ClassMultiProperty.resx">
+      <DependentUpon>ClassMultiProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CreateImageFromDrawObj.resx">
+      <DependentUpon>CreateImageFromDrawObj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CreateNegativeTrainingData.resx">
+      <DependentUpon>CreateNegativeTrainingData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainWindowApplication.resx">
+      <DependentUpon>MainWindowApplication.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PictureAttribute.resx">
+      <DependentUpon>PictureAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\SetNameOutputFile.resx">
+      <DependentUpon>SetNameOutputFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SetObjProperties.resx">
+      <DependentUpon>SetObjProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingArticifialDataEmpty.resx">
+      <DependentUpon>SettingArticifialDataEmpty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingArticifialDataReflection.resx">
+      <DependentUpon>SettingArticifialDataReflection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingArticifialData.resx">
+      <DependentUpon>SettingArticifialData.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Projekt_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Help\help.files\image001.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image002.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image003.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image004.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image005.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image006.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image007.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image008.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image009.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image010.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image011.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image012.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image013.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image014.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image015.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image016.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image017.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image018.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image019.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.files\image020.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x64\cudart64_42_9.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x64\npp64_42_9.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\cudart32_42_9.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\npp32_42_9.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
