@@ -125,6 +125,8 @@ namespace Projekt.Forms
         private string _copyClassName;
         private ToolTip _toolTip1;
 
+        private TestEditorForm _testWindow;
+
         /// <summary>
         /// konstruktor
         /// </summary>
@@ -167,6 +169,7 @@ namespace Projekt.Forms
             _hlpZoom = 0;
             _trackWindow = null;
             _selectedClass = 0;
+            _testWindow = null;
 
             _copyClassName = null;
             pnlCopyInfo.AccessibleDescription = "No data selected";
@@ -247,6 +250,11 @@ namespace Projekt.Forms
                     _trackWindow.Close();
                     _trackWindow = null;
                 }
+                if (_testWindow != null)
+                {
+                    _testWindow.Close();
+                    _testWindow = null;
+                }
             }
         }
 
@@ -282,7 +290,7 @@ namespace Projekt.Forms
             {
                 MessageBox.Show(exc.Message, "MainWindowApplication-OpenProject()", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
+        }        
 
         /// <summary>
         /// Import obrazka s ktorym chce uzivatel pracovat. 
@@ -2361,25 +2369,28 @@ namespace Projekt.Forms
         /// <returns>true ak prebehlo OK inak false</returns>
         public bool SetImage2ImageBox(BaseFigure image)
         {            
-            for (int i = 0; i < _project.CurrentImage.BoundBoxes.Count; i++)
-            {
-                if (!_project.MyClasses.GetAllClasses().Contains(_project.CurrentImage.BoundBoxes[i].Properties.Class))
-                {
-                    List<string> props = new List<string>();
-                    for (int j = 0; j < _project.CurrentImage.BoundBoxes[i].Properties.AtributesName.Length; j++)
-                    {
-                        if (_project.CurrentImage.BoundBoxes[i].Properties.AtributesValue[j] == "true" || _project.CurrentImage.BoundBoxes[i].Properties.AtributesValue[j] == "false")
-                        {
-                            props.Add("01;" + _project.CurrentImage.BoundBoxes[i].Properties.AtributesName[j]);
-                        }
-                        else
-                        {
-                            props.Add(_project.CurrentImage.BoundBoxes[i].Properties.AtributesName[j] + ";" + _project.CurrentImage.BoundBoxes[i].Properties.AtributesValue[j]);
-                        }
-                    }
-                    SaveToFileUndefined(_project.CurrentImage.BoundBoxes[i].Properties.Class, props);
-                }
-            }
+            //for (int i = 0; i < _project.CurrentImage.BoundBoxes.Count; i++)
+            //{
+            //    if (_project.CurrentImage.BoundBoxes[i].Properties.AtributesName != null)
+            //    {
+            //        if (!_project.MyClasses.GetAllClasses().Contains(_project.CurrentImage.BoundBoxes[i].Properties.Class))
+            //        {
+            //            List<string> props = new List<string>();
+            //            for (int j = 0; j < _project.CurrentImage.BoundBoxes[i].Properties.AtributesName.Length; j++)
+            //            {
+            //                if (_project.CurrentImage.BoundBoxes[i].Properties.AtributesValue[j] == "true" || _project.CurrentImage.BoundBoxes[i].Properties.AtributesValue[j] == "false")
+            //                {
+            //                    props.Add("01;" + _project.CurrentImage.BoundBoxes[i].Properties.AtributesName[j]);
+            //                }
+            //                else
+            //                {
+            //                    props.Add(_project.CurrentImage.BoundBoxes[i].Properties.AtributesName[j] + ";" + _project.CurrentImage.BoundBoxes[i].Properties.AtributesValue[j]);
+            //                }
+            //            }
+            //            SaveToFileUndefined(_project.CurrentImage.BoundBoxes[i].Properties.Class, props);
+            //        }
+            //    }
+            //}
 
             try
             {
@@ -2546,6 +2557,7 @@ namespace Projekt.Forms
             pnlSelectObj.Enabled = enable;
             joinBbClassToolStripMenuItem.Enabled = enable;
             tracksEditorToolStripMenuItem.Enabled = enable;
+            trackCompareToolToolStripMenuItem.Enabled = enable;
         }
 
         /// <summary>
@@ -2891,17 +2903,28 @@ namespace Projekt.Forms
 
         }
 
+        //////////////////////////////////////////////////////////////////////////////
+        ////////////////           T R A C K  E D I T O R         ////////////////////
+        //////////////////////////////////////////////////////////////////////////////
+
         private void tracksEditorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (_trackWindow != null)
+            if (_testWindow == null)
             {
-                _trackWindow.Close();
+                if (_trackWindow != null)
+                {
+                    _trackWindow.Close();
+                }
+                _trackWindow = new TrackEditorForm(this);
+                _trackWindow.AllImages = _project.OpenImages;
+                _trackWindow.SetImageToBox(_project.CurrentImage);
+                _trackWindow.AddCheckBoxesItems();
+                _trackWindow.Show();
             }
-            _trackWindow = new TrackEditorForm(this);
-            _trackWindow.AllImages = _project.OpenImages;
-            _trackWindow.SetImageToBox(_project.CurrentImage);
-            _trackWindow.AddCheckBoxesItems();
-            _trackWindow.Show();
+            else
+            {
+                MessageBox.Show("Je potrebné ukončiť porovnávanie trackov!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
 
         public TrackEditorForm TrackWin
@@ -3071,11 +3094,58 @@ namespace Projekt.Forms
         {
             ((Panel)sender).ResetBackColor();
             _toolTip1.Dispose();
-        }
+        }        
 
         private void PropertyMouseLeave(object sender, EventArgs e)
         {
 
         }
-    }  
+
+        //////////////////////////////////////////////////////////////////////////////
+        ////////////////              T E S T  T O O L            ////////////////////
+        //////////////////////////////////////////////////////////////////////////////
+
+        /// <summary>
+        /// Obsluha kliknutia na polozku menu - vytvorenie noveho okna pre porovnanie trackov
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void trackCompareToolToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (_trackWindow == null)
+            {
+                if (_testWindow != null)
+                {
+                    _testWindow.Close();
+                }
+                BaseFigure firstImage = null;
+                if (_project.OpenImages.Count > 0)
+                    firstImage = _project.OpenImages[0];
+                _testWindow = new TestEditorForm(this);
+                _testWindow.AllImages = _project.OpenImages;
+                _testWindow.InitImageBoxes();
+                _testWindow.Show();
+            }
+            else
+            {
+                MessageBox.Show("Je potrebné ukončiť editáciu trackov!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        /// <summary>
+        /// property test win
+        /// </summary>
+        public TestEditorForm TestkWin
+        {
+            get
+            {
+                return _testWindow;
+            }
+
+            set
+            {
+                _testWindow = value;
+            }
+        }        
+    }
 }

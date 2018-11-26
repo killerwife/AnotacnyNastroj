@@ -44,6 +44,7 @@
             this.closeCurrentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.joinBbClassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tracksEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trackCompareToolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.setObjectPropertiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.generateTraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -185,7 +186,8 @@
             this.importToolStripMenuItem,
             this.closeCurrentToolStripMenuItem,
             this.joinBbClassToolStripMenuItem,
-            this.tracksEditorToolStripMenuItem});
+            this.tracksEditorToolStripMenuItem,
+            this.trackCompareToolToolStripMenuItem});
             this.projectToolStripMenuItem.Name = "projectToolStripMenuItem";
             this.projectToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.projectToolStripMenuItem.Text = "Project";
@@ -234,6 +236,13 @@
             this.tracksEditorToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
             this.tracksEditorToolStripMenuItem.Text = "Tracking Editor(Cells)";
             this.tracksEditorToolStripMenuItem.Click += new System.EventHandler(this.tracksEditorToolStripMenuItem_Click);
+            // 
+            // trackCompareToolToolStripMenuItem
+            // 
+            this.trackCompareToolToolStripMenuItem.Name = "trackCompareToolToolStripMenuItem";
+            this.trackCompareToolToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
+            this.trackCompareToolToolStripMenuItem.Text = "Track Compare Tool";
+            this.trackCompareToolToolStripMenuItem.Click += new System.EventHandler(this.trackCompareToolToolStripMenuItem_Click);
             // 
             // toolsToolStripMenuItem
             // 
@@ -1081,6 +1090,7 @@
         private System.Windows.Forms.CheckBox chbRememberZoom;
         private System.Windows.Forms.ToolStripMenuItem tracksEditorToolStripMenuItem;
         private System.Windows.Forms.Panel pnlCopyInfo;
+        private System.Windows.Forms.ToolStripMenuItem trackCompareToolToolStripMenuItem;
     }
 }
 

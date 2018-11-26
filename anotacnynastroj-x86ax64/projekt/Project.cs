@@ -662,6 +662,25 @@ namespace Projekt
             if (_mainForm.InvokeRequired)
                 _mainForm.Invoke((Action<int>)_mainForm.CreateActuallThumbs, 0);
             else _mainForm.CreateActuallThumbs(0);
+            CheckBbArrays();
+        }
+
+        /// <summary>
+        /// Prida polia dlzky 0
+        /// </summary>
+        private void CheckBbArrays()
+        {
+            for (int i = 0; i < OpenImages.Count; i++)
+            {
+                for (int j = 0; j < OpenImages[i].BoundBoxes.Count; j++)
+                {
+                    if (OpenImages[i].BoundBoxes[j].Properties.AtributesName == null)
+                    {
+                        OpenImages[i].BoundBoxes[j].Properties.AtributesName = new string[0];
+                        OpenImages[i].BoundBoxes[j].Properties.AtributesValue = new string[0];
+                    }
+                }
+            }
         }
 
         /// <summary>

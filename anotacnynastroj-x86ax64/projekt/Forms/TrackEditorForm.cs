@@ -440,59 +440,66 @@ namespace Projekt.Forms
 
         private Color SelectColor(string initValue)
         {
-            Random rndGen = new Random(Int32.Parse(initValue));
-            var colorNum = rndGen.Next(1, 25);
-
-            switch (colorNum)
+            try
             {
-                case 1:
-                    return Color.Blue;
-                case 2:
-                    return Color.BlueViolet;
-                case 3:
-                    return Color.Brown;
-                case 4:
-                    return Color.Chartreuse;
-                case 5:
-                    return Color.Orange;
-                case 6:
-                    return Color.DarkGreen;
-                case 7:
-                    return Color.Gold;
-                case 8:
-                    return Color.Black;
-                case 9:
-                    return Color.BurlyWood;
-                case 10:
-                    return Color.Chocolate;
-                case 11:
-                    return Color.Coral;
-                case 12:
-                    return Color.CornflowerBlue;
-                case 13:
-                    return Color.DarkBlue;
-                case 14:
-                    return Color.DarkCyan;
-                case 15:
-                    return Color.DarkGoldenrod;
-                case 16:
-                    return Color.DarkOrange;
-                case 17:
-                    return Color.DarkOrchid;
-                case 18:
-                    return Color.DarkSalmon;
-                case 19:
-                    return Color.Fuchsia;
-                case 20:
-                    return Color.GreenYellow;
-                case 21:
-                    return Color.HotPink;
-                case 22:
-                    return Color.Indigo;
-                case 23:
-                    return Color.OrangeRed;
-                default:
-                    return Color.Red;
+                Random rndGen = new Random(Int32.Parse(initValue));
+                var colorNum = rndGen.Next(1, 25);
+
+                switch (colorNum)
+                {
+                    case 1:
+                        return Color.Blue;
+                    case 2:
+                        return Color.BlueViolet;
+                    case 3:
+                        return Color.Brown;
+                    case 4:
+                        return Color.Chartreuse;
+                    case 5:
+                        return Color.Orange;
+                    case 6:
+                        return Color.DarkGreen;
+                    case 7:
+                        return Color.Gold;
+                    case 8:
+                        return Color.Black;
+                    case 9:
+                        return Color.BurlyWood;
+                    case 10:
+                        return Color.Chocolate;
+                    case 11:
+                        return Color.Coral;
+                    case 12:
+                        return Color.CornflowerBlue;
+                    case 13:
+                        return Color.DarkBlue;
+                    case 14:
+                        return Color.DarkCyan;
+                    case 15:
+                        return Color.DarkGoldenrod;
+                    case 16:
+                        return Color.DarkOrange;
+                    case 17:
+                        return Color.DarkOrchid;
+                    case 18:
+                        return Color.DarkSalmon;
+                    case 19:
+                        return Color.Fuchsia;
+                    case 20:
+                        return Color.GreenYellow;
+                    case 21:
+                        return Color.HotPink;
+                    case 22:
+                        return Color.Indigo;
+                    case 23:
+                        return Color.OrangeRed;
+                    default:
+                        return Color.Red;
+                }
+            }
+            catch (FormatException)
+            {
+                return Color.Red;
             }
         }
 

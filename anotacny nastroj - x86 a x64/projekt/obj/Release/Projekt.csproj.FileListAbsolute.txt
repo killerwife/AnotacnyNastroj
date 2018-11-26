@@ -192,3 +192,5 @@ D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastr
 D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.CV.dll
 D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.CV.UI.dll
 D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\bin\Release\Emgu.Util.dll
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.AddFilesToCompareForm.resources
+D:\Dokumenty\Dokumenty\Skola2\Projekt1\pracujeme\anotacny nastroj\anotacny nastroj - x86 a x64\Projekt\obj\Release\Projekt.Forms.TestEditorForm.resources

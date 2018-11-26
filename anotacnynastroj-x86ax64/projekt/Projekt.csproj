@@ -64,14 +64,17 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Emgu.CV">
-      <HintPath>..\..\..\..\..\..\Sťahovanie\libemgucv-windows-universal-2.4.10.1940\bin\Emgu.CV.dll</HintPath>
+    <Reference Include="Emgu.CV, Version=2.4.10.1939, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Sťahovanie\libemgucv-windows-universal-2.4.10.1940\bin\Emgu.CV.dll</HintPath>
     </Reference>
-    <Reference Include="Emgu.CV.UI">
-      <HintPath>..\..\..\..\..\..\Sťahovanie\libemgucv-windows-universal-2.4.10.1940\bin\Emgu.CV.UI.dll</HintPath>
+    <Reference Include="Emgu.CV.UI, Version=2.4.10.1939, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Sťahovanie\libemgucv-windows-universal-2.4.10.1940\bin\Emgu.CV.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Emgu.Util">
-      <HintPath>..\..\..\..\..\..\Sťahovanie\libemgucv-windows-universal-2.4.10.1940\bin\Emgu.Util.dll</HintPath>
+    <Reference Include="Emgu.Util, Version=2.4.10.1939, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Sťahovanie\libemgucv-windows-universal-2.4.10.1940\bin\Emgu.Util.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -94,6 +97,12 @@
     <Compile Include="Enums\ETransformType.cs" />
     <Compile Include="Enums\ETypeOfSortDir.cs" />
     <Compile Include="ExternalMethodForRecognition.cs" />
+    <Compile Include="Forms\AddFilesToCompareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddFilesToCompareForm.Designer.cs">
+      <DependentUpon>AddFilesToCompareForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CreateDirectoryStructureForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +147,12 @@
     </Compile>
     <Compile Include="Forms\SetCsvOptions.Designer.cs">
       <DependentUpon>SetCsvOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TestEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TestEditorForm.Designer.cs">
+      <DependentUpon>TestEditorForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\TrackEditorForm.cs">
       <SubType>Form</SubType>
@@ -261,6 +276,9 @@
     <Compile Include="TmpPanel.cs">
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="Forms\AddFilesToCompareForm.resx">
+      <DependentUpon>AddFilesToCompareForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CreateDirectoryStructureForm.resx">
       <DependentUpon>CreateDirectoryStructureForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -281,6 +299,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SetCsvOptions.resx">
       <DependentUpon>SetCsvOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TestEditorForm.resx">
+      <DependentUpon>TestEditorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\TrackEditorForm.resx">
       <DependentUpon>TrackEditorForm.cs</DependentUpon>
