@@ -124,6 +124,7 @@ namespace Projekt.Forms
         private List<string> _copyNamesList;
         private string _copyClassName;
         private ToolTip _toolTip1;
+        private int _movingWidth, _movingHeight;
 
         private TestEditorForm _testWindow;
 
@@ -173,6 +174,13 @@ namespace Projekt.Forms
 
             _copyClassName = null;
             pnlCopyInfo.AccessibleDescription = "No data selected";
+
+            TruePositiveWeight = 1;
+            FalsePositiveWeight = 1;
+            FalseNegativeWeight = 1;
+
+            _movingHeight = 0;
+            _movingWidth = 0;
         }
 
 /*        private void GbPropertyOnMouseLeave(object sender, EventArgs eventArgs)
@@ -412,7 +420,7 @@ namespace Projekt.Forms
             foreach (Control control in pnlProperty.Controls) //nacitanie vlastnosti z komboboxou s atributami z panelu property
             {
                 if (typeof(ClassMultiProperty) == control.GetType())
-                    propsValue[i++] = (control as ClassMultiProperty).GetSelectedValue();
+                    propsValue[i++] = (control as ClassMultiProperty).GetSelectedValue(); 
                 else if (typeof(ClassBoolProperty) == control.GetType())
                     propsValue[i++] = (control as ClassBoolProperty).Checked ? "true" : "false";
             }
@@ -1770,6 +1778,8 @@ namespace Projekt.Forms
             if (Math.Abs(ZoomAndScrollPoint(bb.PointA).Y - e.Y) < Math.Abs(ZoomAndScrollPoint(bb.PointB).Y - e.Y))
             {   //  kliklo sa na A (lavy horny)
                 _selectPoint = bb.PointA;
+                _movingWidth = bb.Size.Width;
+                _movingHeight = bb.Size.Height;
             }
             else // kliklo sa na B (pravy dolny)
                 _selectPoint = bb.PointB;
@@ -1799,8 +1809,9 @@ namespace Projekt.Forms
 
                 if (bb.PointA == _selectPoint)
                 {
-                    bb.PointB = new Point(endPoint.X + ((BoundingBox)_selectedObj).Size.Width, endPoint.Y + ((BoundingBox)_selectedObj).Size.Height); 
-                    bb.PointA = endPoint;                    
+                    bb.PointA = endPoint;
+                    //bb.PointB = new Point(endPoint.X + ((BoundingBox)_selectedObj).Size.Width, endPoint.Y + ((BoundingBox)_selectedObj).Size.Height);
+                    bb.PointB = new Point(endPoint.X + _movingWidth, endPoint.Y + _movingHeight);
                 }                           
                 else
                 {
@@ -3146,6 +3157,18 @@ namespace Projekt.Forms
             {
                 _testWindow = value;
             }
-        }        
+        }
+        
+        /// <summary>
+        /// Properties pre vahy statistik
+        /// </summary>
+        public int TruePositiveWeight
+        { get; set; }
+
+        public int FalsePositiveWeight
+        { get; set; }
+
+        public int FalseNegativeWeight
+        { get; set; }
     }
 }

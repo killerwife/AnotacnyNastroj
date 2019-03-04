@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Projekt.exe" size="717312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Projekt.exe" size="730624">
       <assemblyIdentity name="Projekt" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>i4/m8LiBWAM13PqE2gKYUhCvdZBhcJwpM8H87XndO9c=</dsig:DigestValue>
+        <dsig:DigestValue>c5U05nvaZcVQWTbRDyvVZ4ObI2o+IN8pcmFRnyMhv3Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

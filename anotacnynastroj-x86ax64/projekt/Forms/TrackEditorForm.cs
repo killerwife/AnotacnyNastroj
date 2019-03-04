@@ -23,7 +23,12 @@ namespace Projekt.Forms
 
         public List<BaseFigure> AllImages { get; set; }        
         private List<BoundingBox> BBtracks;
-        
+
+        //pamatanie zoomu pri vybere oblasti
+        private double _leftClickZoom;
+        private int _leftClickVScroll;
+        private int _leftClickHScroll;
+                
         public TrackEditorForm(MainWindowApplication paMain)
         {
             InitializeComponent();
@@ -38,7 +43,10 @@ namespace Projekt.Forms
             _framesPlus = 1;
             imageBox.MouseWheel += ImgeBoxOnMouseWheel;
             _actualZoom = 1;
-        }
+            _leftClickZoom = 1.0;
+            _leftClickHScroll = 0;
+            _leftClickVScroll = 0;
+    }
 
         public string SelectedObj
         {
@@ -163,10 +171,11 @@ namespace Projekt.Forms
                     }
                 }
 
+                int num;
                 int trIdIndex = Array.IndexOf(paObj.Properties.AtributesName, "track_id");
                 if (trIdIndex >= 0)
                 {
-                    if (String.Compare(paObj.Properties.AtributesValue[trIdIndex], "", false) != 0)
+                    if (String.Compare(paObj.Properties.AtributesValue[trIdIndex], "", false) != 0 && int.TryParse(paObj.Properties.AtributesValue[trIdIndex], out num))
                     {
                         _selectedObj = paObj.Properties.AtributesValue[trIdIndex];                        
                     }
@@ -662,7 +671,7 @@ namespace Projekt.Forms
             }
             else
             {
-                MessageBox.Show("Je potrebné zvoliť track!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("No track selected!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
@@ -1060,6 +1069,26 @@ namespace Projekt.Forms
             else if (Control.ModifierKeys == Keys.Control && e.KeyCode == Keys.Left)//ctrl + <-
             {
                 _mainWin.ChangeFrameManually(false);
+            }
+        }
+
+        private void imageBox_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                imageBox.SetZoomScale(_leftClickZoom, default(Point));
+                imageBox.HorizontalScrollBar.Value = _leftClickHScroll;
+                imageBox.VerticalScrollBar.Value = _leftClickVScroll;
+            }
+        }
+
+        private void imageBox_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                _leftClickZoom = imageBox.ZoomScale;
+                _leftClickHScroll = imageBox.HorizontalScrollBar.Value;
+                _leftClickVScroll = imageBox.VerticalScrollBar.Value;
             }
         }
     }

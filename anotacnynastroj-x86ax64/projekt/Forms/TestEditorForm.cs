@@ -8,6 +8,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -29,6 +30,9 @@ namespace Projekt.Forms
         private Bitmap _btm1 = new Bitmap(1, 1);
         private Graphics _graphics1 = null;
 
+        private double _imgBox1Zoom;
+        private double _imgBox2Zoom;        
+
         public List<BaseFigure> AllImages { get; set; }        
         private bool GtFromProject { get; set; }
         private bool TestFromProject { get; set; }
@@ -38,6 +42,19 @@ namespace Projekt.Forms
         private List<BoundingBox> TestedTracks { get; set; }
         private List<BoundingBox> UncategorizedPoints { get; set; }
 
+        //pamatanie zoomu pri vybere oblasti
+        private double _leftClickZoom;
+        private int _leftClickVScroll1;
+        private int _leftClickHScroll1;
+        private int _leftClickVScroll2;
+        private int _leftClickHScroll2;
+
+        //statistiky
+        private int _truePositives;
+        private int _falsePositives;
+        private int _falseNegatives;
+        Dictionary<string, int[]> _statsDictionary;
+        Dictionary<string, int> _statsTestDictionary;
 
         public TestEditorForm(MainWindowApplication paMain)
         {
@@ -53,11 +70,30 @@ namespace Projekt.Forms
             ProjectIsSet = false;
             cmbGtTracks.Enabled = false;
             chListTracks.Enabled = false;
-            chbUncategorized.Enabled = false;
+            chbUncategorized.Enabled = false;            
             SelectedTrack = new List<BoundingBox>();
             TestedTracks = new List<BoundingBox>();
             UncategorizedPoints = new List<BoundingBox>();
             chListTracks.Sorted = true;
+            //retain zoom
+            _imgBox1Zoom = 1.0;
+            _imgBox2Zoom = 1.0;
+            _leftClickZoom = 1.0;
+            _leftClickHScroll1 = 0;
+            _leftClickVScroll1 = 0;
+            _leftClickHScroll2 = 0;
+            _leftClickVScroll2 = 0;
+
+            _truePositives = 0;
+            _falsePositives = 0;
+            _falseNegatives = 0;
+            _statsDictionary = new Dictionary<string, int[]>();
+            //index 0 = prue positives, index 2 = false negatives
+            _statsTestDictionary = new Dictionary<string, int>();
+            //false positives pre testovacie
+            nmTruePositives.Value = _mainWin.TruePositiveWeight;
+            nmFalsePositives.Value = _mainWin.FalsePositiveWeight;
+            nmFalseNegatives.Value = _mainWin.FalseNegativeWeight;
         }
 
         private void EndWork(object sender, FormClosingEventArgs e)
@@ -105,48 +141,56 @@ namespace Projekt.Forms
         /// </summary>
         public void SetZoom()
         {
-            double imgHeihgt = (double)_currentImg.GetImage().Height;
-            double imgWidth = (double)_currentImg.GetImage().Width;
-            double boxHeight = (double)imageBox.Height;
-            double boxWidth = (double)imageBox.Width;
-            double zoomNum, hNum, wNum = 0;
-
-            if (imgHeihgt > boxHeight && imgWidth > boxWidth)
+            if (chbRememberZoom.Checked)
             {
-                hNum = boxHeight / imgHeihgt;
-                wNum = boxWidth / imgWidth;
-                if (hNum < wNum)
-                {
-                    zoomNum = hNum;
-                }
-                else
-                {
-                    zoomNum = wNum;
-                }
-            }
-            else if (imgHeihgt > boxHeight)
-            {
-                zoomNum = boxHeight / imgHeihgt;
-            }
-            else if (imgWidth > boxWidth)
-            {
-                zoomNum = boxWidth / imgWidth;
+                imageBox.SetZoomScale(_imgBox1Zoom, new Point(0, 0));
+                imageBox1.SetZoomScale(_imgBox2Zoom, new Point(0, 0));
             }
             else
             {
-                hNum = boxHeight / imgHeihgt;
-                wNum = boxWidth / imgWidth;
-                if (hNum < wNum)
+                double imgHeihgt = (double)_currentImg.GetImage().Height;
+                double imgWidth = (double)_currentImg.GetImage().Width;
+                double boxHeight = (double)imageBox.Height;
+                double boxWidth = (double)imageBox.Width;
+                double zoomNum, hNum, wNum = 0;
+
+                if (imgHeihgt > boxHeight && imgWidth > boxWidth)
                 {
-                    zoomNum = hNum;
+                    hNum = boxHeight / imgHeihgt;
+                    wNum = boxWidth / imgWidth;
+                    if (hNum < wNum)
+                    {
+                        zoomNum = hNum;
+                    }
+                    else
+                    {
+                        zoomNum = wNum;
+                    }
+                }
+                else if (imgHeihgt > boxHeight)
+                {
+                    zoomNum = boxHeight / imgHeihgt;
+                }
+                else if (imgWidth > boxWidth)
+                {
+                    zoomNum = boxWidth / imgWidth;
                 }
                 else
                 {
-                    zoomNum = wNum;
+                    hNum = boxHeight / imgHeihgt;
+                    wNum = boxWidth / imgWidth;
+                    if (hNum < wNum)
+                    {
+                        zoomNum = hNum;
+                    }
+                    else
+                    {
+                        zoomNum = wNum;
+                    }
                 }
-            }            
-            imageBox.SetZoomScale(Math.Floor(zoomNum * 100) / 100, new Point(0, 0));
-            imageBox1.SetZoomScale(Math.Floor(zoomNum * 100) / 100, new Point(0, 0));
+                imageBox.SetZoomScale(Math.Floor(zoomNum * 100) / 100, new Point(0, 0));
+                imageBox1.SetZoomScale(Math.Floor(zoomNum * 100) / 100, new Point(0, 0));
+            }
         }
 
         private void TestEditorForm_Resize(object sender, EventArgs e)
@@ -177,6 +221,10 @@ namespace Projekt.Forms
             var imgNum = imageNum - 1;
             if (imgNum >= 0 && imgNum < AllImages.Count)
             {
+                //retain zoom
+                _imgBox1Zoom = imageBox.ZoomScale;                
+                _imgBox2Zoom = imageBox1.ZoomScale;                
+                //zmena obrazka
                 SetImage2ImageBox(AllImages[imgNum]);
                 _currentImgNum = imageNum;
                 labImageCount.Text = "Current image: " + _currentImgNum + "/" + AllImages.Count;
@@ -291,7 +339,7 @@ namespace Projekt.Forms
                     ProjectIsSet = false;
                     cmbGtTracks.Enabled = false;
                     chListTracks.Enabled = false;
-                    chbUncategorized.Enabled = false;
+                    chbUncategorized.Enabled = false;                    
                     imageBox.Refresh();
                     imageBox1.Refresh();
                     return;
@@ -341,7 +389,7 @@ namespace Projekt.Forms
                     ProjectIsSet = false;
                     cmbGtTracks.Enabled = false;
                     chListTracks.Enabled = false;
-                    chbUncategorized.Enabled = false;
+                    chbUncategorized.Enabled = false;                    
                     imageBox.Refresh();
                     imageBox1.Refresh();
                     return;
@@ -359,7 +407,7 @@ namespace Projekt.Forms
         {
             cmbGtTracks.Enabled = true;
             chListTracks.Enabled = true;
-            chbUncategorized.Enabled = true;
+            chbUncategorized.Enabled = true;            
             cmbGtTracks.Items.Clear();
             cmbGtTracks.ResetText();
             SelectedTrack.Clear();
@@ -412,6 +460,13 @@ namespace Projekt.Forms
             }
             imageBox.Refresh();
             imageBox1.Refresh();
+
+            CalcStats4FullSequence();
+
+            //tsProgressBar.Visible = true;
+            //tsStatusLabel.Visible = true;
+            //sem pojde thread
+            
         }
 
         /// <summary>
@@ -521,22 +576,33 @@ namespace Projekt.Forms
         /// <param name="e"></param>
         private void imageBox_MouseUp(object sender, MouseEventArgs e)
         {
-            if (!chbSync.Checked) return;
-            var refrsh = false;
-            if (imageBox.HorizontalScrollBar.Value != imageBox1.HorizontalScrollBar.Value)
+            if (e.Button == MouseButtons.Left)
             {
-                refrsh = true;
-                if (imageBox.HorizontalScrollBar.Value <= imageBox1.HorizontalScrollBar.Maximum)
-                    imageBox1.HorizontalScrollBar.Value = imageBox.HorizontalScrollBar.Value;
+                imageBox.SetZoomScale(_leftClickZoom, default(Point));
+                imageBox.HorizontalScrollBar.Value = _leftClickHScroll1;
+                imageBox.VerticalScrollBar.Value = _leftClickVScroll1;
+                imageBox1.HorizontalScrollBar.Value = _leftClickHScroll2;
+                imageBox1.VerticalScrollBar.Value = _leftClickVScroll2;
             }
-            if (imageBox.VerticalScrollBar.Value != imageBox1.VerticalScrollBar.Value)
+            else
             {
-                refrsh = true;
-                if (imageBox.VerticalScrollBar.Value <= imageBox1.VerticalScrollBar.Maximum)
-                    imageBox1.VerticalScrollBar.Value = imageBox.VerticalScrollBar.Value;
+                if (!chbSync.Checked) return;
+                var refrsh = false;
+                if (imageBox.HorizontalScrollBar.Value != imageBox1.HorizontalScrollBar.Value)
+                {
+                    refrsh = true;
+                    if (imageBox.HorizontalScrollBar.Value <= imageBox1.HorizontalScrollBar.Maximum)
+                        imageBox1.HorizontalScrollBar.Value = imageBox.HorizontalScrollBar.Value;
+                }
+                if (imageBox.VerticalScrollBar.Value != imageBox1.VerticalScrollBar.Value)
+                {
+                    refrsh = true;
+                    if (imageBox.VerticalScrollBar.Value <= imageBox1.VerticalScrollBar.Maximum)
+                        imageBox1.VerticalScrollBar.Value = imageBox.VerticalScrollBar.Value;
+                }
+                if (refrsh)
+                    imageBox1.Refresh();
             }
-            if (refrsh)
-                imageBox1.Refresh();
         }
 
         /// <summary>
@@ -546,22 +612,33 @@ namespace Projekt.Forms
         /// <param name="e"></param>
         private void imageBox1_MouseUp(object sender, MouseEventArgs e)
         {
-            if (!chbSync.Checked) return;
-            var refrsh = false;
-            if (imageBox.HorizontalScrollBar.Value != imageBox1.HorizontalScrollBar.Value)
+            if (e.Button == MouseButtons.Left)
             {
-                refrsh = true;
-                if (imageBox1.HorizontalScrollBar.Value <= imageBox.HorizontalScrollBar.Maximum)
-                    imageBox.HorizontalScrollBar.Value = imageBox1.HorizontalScrollBar.Value;
+                imageBox1.SetZoomScale(_leftClickZoom, default(Point));
+                imageBox.HorizontalScrollBar.Value = _leftClickHScroll1;
+                imageBox.VerticalScrollBar.Value = _leftClickVScroll1;
+                imageBox1.HorizontalScrollBar.Value = _leftClickHScroll2;
+                imageBox1.VerticalScrollBar.Value = _leftClickVScroll2;
             }
-            if (imageBox.VerticalScrollBar.Value != imageBox1.VerticalScrollBar.Value)
+            else
             {
-                refrsh = true;
-                if (imageBox1.VerticalScrollBar.Value <= imageBox.VerticalScrollBar.Maximum)
-                    imageBox.VerticalScrollBar.Value = imageBox1.VerticalScrollBar.Value;
+                if (!chbSync.Checked) return;
+                var refrsh = false;
+                if (imageBox.HorizontalScrollBar.Value != imageBox1.HorizontalScrollBar.Value)
+                {
+                    refrsh = true;
+                    if (imageBox1.HorizontalScrollBar.Value <= imageBox.HorizontalScrollBar.Maximum)
+                        imageBox.HorizontalScrollBar.Value = imageBox1.HorizontalScrollBar.Value;
+                }
+                if (imageBox.VerticalScrollBar.Value != imageBox1.VerticalScrollBar.Value)
+                {
+                    refrsh = true;
+                    if (imageBox1.VerticalScrollBar.Value <= imageBox.VerticalScrollBar.Maximum)
+                        imageBox.VerticalScrollBar.Value = imageBox1.VerticalScrollBar.Value;
+                }
+                if (refrsh)
+                    imageBox.Refresh();
             }
-            if (refrsh)
-                imageBox.Refresh();
         }
 
         /// <summary>
@@ -714,6 +791,18 @@ namespace Projekt.Forms
             var cmbIndex = cmbGtTracks.SelectedIndex;
             string trackName = cmbGtTracks.Items[cmbIndex].ToString().Substring(6);
             SelectedTrackName = trackName;
+
+            if (_statsDictionary.ContainsKey(trackName))
+            {
+                tbTPosSel.Text = _statsDictionary[trackName][0] + "";                
+                tbFNegSel.Text = _statsDictionary[trackName][1] + "";
+            }
+            else
+            {
+                tbTPosSel.Text = "0";                
+                tbFNegSel.Text = "0";
+            }
+
             SelectedTrack.Clear();
             TestedTracks.Clear();
             UncategorizedPoints.Clear();
@@ -770,69 +859,86 @@ namespace Projekt.Forms
 
         private void SetTestTracks(List<int> imgNums)
         {
-            List<string> selectedIds = new List<string>();
-            for(int i = 0; i < imgNums.Count; i++)
+            try
             {
-                List<BoundingBox> imgBBs = null;
-                if (TestFromProject)
-                {
-                    imgBBs = AllImages[imgNums[i]].BoundBoxes;
-                }
-                else
-                {
-                    imgBBs = _testObjects[i];
-                }
-                for (int j = 0; j < imgBBs.Count; j++)
-                {
-                    if(SelectedTrack[i].PointA.X == imgBBs[j].PointA.X && SelectedTrack[i].PointA.Y == imgBBs[j].PointA.Y 
-                        && SelectedTrack[i].Size.Width == imgBBs[j].Size.Width && SelectedTrack[i].Size.Width == imgBBs[j].Size.Width)
-                    {
-                        var trIndex = Array.IndexOf(imgBBs[j].Properties.AtributesName, "track_id");
-                        if (trIndex >= 0)
-                        {
-                            var trId = imgBBs[j].Properties.AtributesValue[trIndex];
-                            if (String.Compare(trId, "", false) == 0)
-                            {
-                                UncategorizedPoints.Add(imgBBs[j]);
-                            }
-                            else if(!selectedIds.Contains(trId))
-                            {
-                                selectedIds.Add(trId);
-                            }
-                        }
-                        break;
-                    }
-                }
-            }
-            chbUncategorized.Text = "Show uncategorized points(" + UncategorizedPoints.Count + ")";
-            foreach (string tId in selectedIds)
-            {
-                chListTracks.Items.Add(tId);
-                for (int i = 0; i < AllImages.Count; i++)
+                List<string> selectedIds = new List<string>();
+                for (int i = 0; i < imgNums.Count; i++)
                 {
                     List<BoundingBox> imgBBs = null;
                     if (TestFromProject)
                     {
-                        imgBBs = AllImages[i].BoundBoxes;
+                        imgBBs = AllImages[imgNums[i]].BoundBoxes;
                     }
                     else
                     {
-                        imgBBs = _testObjects[i];
+                        imgBBs = _testObjects[imgNums[i]];
                     }
                     for (int j = 0; j < imgBBs.Count; j++)
                     {
-                        var trIndex = Array.IndexOf(imgBBs[j].Properties.AtributesName, "track_id");
-                        if (trIndex >= 0)
+                        if (SelectedTrack[i].PointA.X == imgBBs[j].PointA.X && SelectedTrack[i].PointA.Y == imgBBs[j].PointA.Y
+                            && SelectedTrack[i].Size.Width == imgBBs[j].Size.Width && SelectedTrack[i].Size.Height == imgBBs[j].Size.Height)
                         {
-                            var trackIdNum = imgBBs[j].Properties.AtributesValue[trIndex];
-                            if (String.Compare(trackIdNum, tId, false) == 0)
+                            var trIndex = Array.IndexOf(imgBBs[j].Properties.AtributesName, "track_id");
+                            if (trIndex >= 0)
                             {
-                                TestedTracks.Add(imgBBs[j]);
-                                break;
+                                var trId = imgBBs[j].Properties.AtributesValue[trIndex];
+                                if (String.Compare(trId, "", false) == 0)
+                                {
+                                    UncategorizedPoints.Add(imgBBs[j]);
+                                }
+                                else if (!selectedIds.Contains(trId))
+                                {
+                                    selectedIds.Add(trId);
+                                }
+                            }
+                            break;
+                        }
+                    }
+                }
+                chbUncategorized.Text = "Show uncategorized points(" + UncategorizedPoints.Count + ")";
+                int falsePositives = 0;
+                foreach (string tId in selectedIds)
+                {
+                    chListTracks.Items.Add(tId);
+
+                    if (_statsTestDictionary.ContainsKey(tId))
+                    {
+                        falsePositives += _statsTestDictionary[tId];
+                    }
+
+                    for (int i = 0; i < AllImages.Count; i++)
+                    {
+                        List<BoundingBox> imgBBs = null;
+                        if (TestFromProject)
+                        {
+                            imgBBs = AllImages[i].BoundBoxes;
+                        }
+                        else
+                        {
+                            imgBBs = _testObjects[i];
+                        }
+                        for (int j = 0; j < imgBBs.Count; j++)
+                        {
+                            var trIndex = Array.IndexOf(imgBBs[j].Properties.AtributesName, "track_id");
+                            if (trIndex >= 0)
+                            {
+                                var trackIdNum = imgBBs[j].Properties.AtributesValue[trIndex];
+                                if (String.Compare(trackIdNum, tId, false) == 0)
+                                {
+                                    TestedTracks.Add(imgBBs[j]);
+                                    break;
+                                }
                             }
                         }
                     }
                 }
+
+                tbFPosSel.Text = falsePositives + "";
+            }
+            catch(ArgumentOutOfRangeException e)
+            {
+                DisableProject();
+                MessageBox.Show("Inconsistent data. ", "Data inconsistency error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
                 
@@ -1001,6 +1107,276 @@ namespace Projekt.Forms
                     }
                 }
             }
+        }
+
+        /// <summary>
+        /// Obsluha stlacenia tlacidla mysky pre imgbox gt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void imageBox_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                _leftClickZoom = imageBox.ZoomScale;
+                _leftClickHScroll1 = imageBox.HorizontalScrollBar.Value;
+                _leftClickVScroll1 = imageBox.VerticalScrollBar.Value;
+                _leftClickHScroll2 = imageBox1.HorizontalScrollBar.Value;
+                _leftClickVScroll2 = imageBox1.VerticalScrollBar.Value;
+            }
+        }
+
+        /// <summary>
+        /// Obsluha stlacenia tlacidla mysky pre imgbox test
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void imageBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                _leftClickZoom = imageBox1.ZoomScale;
+                _leftClickHScroll1 = imageBox.HorizontalScrollBar.Value;
+                _leftClickVScroll1 = imageBox.VerticalScrollBar.Value;
+                _leftClickHScroll2 = imageBox1.HorizontalScrollBar.Value;
+                _leftClickVScroll2 = imageBox1.VerticalScrollBar.Value;
+            }
+        }
+
+        /// <summary>
+        /// Pocitanie tp, fp, fn
+        /// </summary>
+        private void CalcStats4FullSequence()
+        {
+            try
+            { 
+                _truePositives = 0;
+                _falsePositives = 0;
+                _falseNegatives = 0;
+                _statsDictionary.Clear();
+                _statsTestDictionary.Clear();
+
+                List<BoundingBox> groundTruth;
+                List<BoundingBox> testObjects;
+                var gtTrack = "";
+                var dictionaryId = "";
+
+                for (int i = 0; i < AllImages.Count - 1; i++)
+                {
+                    if (GtFromProject)
+                    {
+                        groundTruth = AllImages[i].BoundBoxes;
+                    }
+                    else
+                    {
+                        groundTruth = _gtObjects[i];
+                    }
+
+                    if (TestFromProject)
+                    {
+                        testObjects = AllImages[i].BoundBoxes;
+                    }
+                    else
+                    {
+                        testObjects = _testObjects[i];
+                    }
+
+                    for (int j = 0; j < groundTruth.Count; j++)
+                    {
+                        var gtIndex = Array.IndexOf(groundTruth[j].Properties.AtributesName, "track_id");
+                        if (gtIndex >= 0)
+                        {
+                            gtTrack = groundTruth[j].Properties.AtributesValue[gtIndex];
+                            BoundingBox gtPair = null;
+                            int gtFrameNum = 0;
+                            if (String.Compare(gtTrack, "", false) != 0)
+                            {
+                                for (int k = i + 1; k < AllImages.Count; k++)
+                                {
+                                    List<BoundingBox> groundTruthPlus;
+                                    if (GtFromProject)
+                                    {
+                                        groundTruthPlus = AllImages[k].BoundBoxes;
+                                    }
+                                    else
+                                    {
+                                        groundTruthPlus = _gtObjects[k];
+                                    }
+                                    for (int l = 0; l < groundTruthPlus.Count; l++)
+                                    {
+                                        var pairGtIndex = Array.IndexOf(groundTruthPlus[l].Properties.AtributesName, "track_id");
+                                        if (pairGtIndex >= 0)
+                                        {
+                                            if (String.Compare(gtTrack, groundTruthPlus[l].Properties.AtributesValue[pairGtIndex], false) == 0)
+                                            {
+                                                gtFrameNum = k;
+                                                gtPair = groundTruthPlus[l];
+                                                break;
+                                            }
+                                        }
+                                    }
+                                    if (gtPair != null)
+                                    {
+                                        break;
+                                    }
+                                }
+                            }
+                            //par v test objektoch
+                            BoundingBox testPair = null;
+                            int testFrameNum = 0;
+                            string testId = null;
+                            for (int k = 0; k < testObjects.Count; k++)
+                            {
+                                if (testObjects[k].PointA.X == groundTruth[j].PointA.X && testObjects[k].PointA.Y == groundTruth[j].PointA.Y
+                                    && testObjects[k].PointB.X == groundTruth[j].PointB.X && testObjects[k].PointB.Y == groundTruth[j].PointB.Y)
+                                {
+                                    var testIndex = Array.IndexOf(testObjects[k].Properties.AtributesName, "track_id");
+                                    if (testIndex >= 0)
+                                    {
+                                        testId = testObjects[k].Properties.AtributesValue[testIndex];
+                                    }
+                                }
+                            }
+                            if (testId == null)
+                            {
+                                DisableProject();
+                                MessageBox.Show("Unable to calculate stats. ", "Data inconsistency error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                                return;
+                            }
+
+                            if (String.Compare(testId, "", false) != 0)
+                            {
+                                for (int k = i + 1; k < AllImages.Count; k++)
+                                {
+                                    List<BoundingBox> testObjectsPlus;
+                                    if (TestFromProject)
+                                    {
+                                        testObjectsPlus = AllImages[k].BoundBoxes;
+                                    }
+                                    else
+                                    {
+                                        testObjectsPlus = _testObjects[k];
+                                    }
+
+                                    for (int l = 0; l < testObjectsPlus.Count; l++)
+                                    {
+                                        var pairTestIndex = Array.IndexOf(testObjectsPlus[l].Properties.AtributesName, "track_id");
+                                        if (pairTestIndex >= 0)
+                                        {
+                                            if (String.Compare(testId, testObjectsPlus[l].Properties.AtributesValue[pairTestIndex], false) == 0)
+                                            {
+                                                testFrameNum = k;
+                                                testPair = testObjectsPlus[l];
+                                                dictionaryId = testId;
+                                                break;
+                                            }
+                                        }
+                                    }
+                                    if (testPair != null)
+                                    {
+                                        break;
+                                    }
+                                }
+                            }
+
+                            //ak chyba v slovniku treba pridat
+                            if (!_statsDictionary.ContainsKey(gtTrack))
+                            {
+                                _statsDictionary.Add(gtTrack, new int[] { 0, 0 });
+                            }
+
+                            //porovnanie
+                            if (testPair == null && gtPair == null)//oba nezaradene
+                            {
+                                //spravne ale zatial nic
+                            }
+                            else if (testPair == null && gtPair != null)//povodny spojeny, testovaci nespojeny
+                            {
+                                _falseNegatives++;
+                                _statsDictionary[gtTrack][1]++;
+                            }
+                            else if (testPair != null && gtPair == null)//povodny nespojeny, testovaci spojeny
+                            {
+                                _falsePositives++;
+                                if (!_statsTestDictionary.ContainsKey(dictionaryId))
+                                {
+                                    _statsTestDictionary.Add(dictionaryId, 1);
+                                }
+                                else
+                                {
+                                    _statsTestDictionary[dictionaryId]++;
+                                }
+                            }
+                            else if (testPair.PointA == gtPair.PointA && testPair.PointB == gtPair.PointB && testFrameNum == gtFrameNum)//spravne spojene
+                            {
+                                _truePositives++;
+                                _statsDictionary[gtTrack][0]++;
+                            }
+                            else//nespravne spojene
+                            {
+                                _falseNegatives++;
+                                _falsePositives++;
+                                _statsDictionary[gtTrack][1]++;
+                                if (!_statsTestDictionary.ContainsKey(dictionaryId))
+                                {
+                                    _statsTestDictionary.Add(dictionaryId, 1);
+                                }
+                                else
+                                {
+                                    _statsTestDictionary[dictionaryId]++;
+                                }
+                            }
+                        }
+                    }
+                }
+                tbTPositives.Text = _truePositives + "";
+                tbFPositives.Text = _falsePositives + "";
+                tbFNegatives.Text = _falseNegatives + "";
+
+                double tpPerc = Math.Round((_truePositives * 100.0) / (_truePositives + _falseNegatives + _falsePositives), 2);
+                if (Double.IsNaN(tpPerc))
+                    tpPerc = 0;
+                double fpPerc = Math.Round((_falsePositives * 100.0) / (_truePositives + _falseNegatives + _falsePositives), 2);
+                if (Double.IsNaN(fpPerc))
+                    fpPerc = 0;
+                double fnPerc = Math.Round((_falseNegatives * 100.0) / (_truePositives + _falseNegatives + _falsePositives), 2);
+                if (Double.IsNaN(fnPerc))
+                    fnPerc = 0;
+
+                tbTPPerc.Text = tpPerc + "%";
+                tbFPPerc.Text = fpPerc + "%";
+                tbFNPerc.Text = fnPerc + "%";
+                tsProgressBar.Visible = false;
+                tsStatusLabel.Visible = false;
+            }
+            catch (ArgumentOutOfRangeException e)
+            {
+                DisableProject();
+                MessageBox.Show("Inconsistent data. ", "Data inconsistency error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void DisableProject()
+        {
+            ProjectIsSet = false;
+            cmbGtTracks.Enabled = false;
+            chListTracks.Enabled = false;
+            chbUncategorized.Enabled = false;
+        }
+
+        private void nmTruePositives_ValueChanged(object sender, EventArgs e)
+        {
+            _mainWin.TruePositiveWeight = (int)nmTruePositives.Value;
+        }
+
+        private void nmFalsePositives_ValueChanged(object sender, EventArgs e)
+        {
+            _mainWin.FalsePositiveWeight = (int)nmFalsePositives.Value;
+        }
+
+        private void nmFalseNegatives_ValueChanged(object sender, EventArgs e)
+        {
+            _mainWin.FalseNegativeWeight = (int)nmFalseNegatives.Value;
         }
     }
 }

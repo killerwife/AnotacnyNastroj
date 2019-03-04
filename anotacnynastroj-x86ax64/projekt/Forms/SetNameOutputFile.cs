@@ -34,6 +34,9 @@ namespace Projekt.Forms
             _projectFolder = projectFolder;
             cmbFormat.DataSource = Enum.GetValues(typeof(EImportExportFormat));
 
+            if (cmbFormat.Items.Count >= 4)
+                cmbFormat.SelectedIndex = 3;
+
             if(_myClasses != null)FillCmbClasses();
         }
 

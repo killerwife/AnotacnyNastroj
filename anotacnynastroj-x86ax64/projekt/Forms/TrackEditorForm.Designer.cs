@@ -35,6 +35,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlPreviousFrame = new System.Windows.Forms.Panel();
+            this.pnlNextFrame = new System.Windows.Forms.Panel();
             this.pnlSplitTracks = new System.Windows.Forms.Panel();
             this.pnlConnectTracks = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -46,8 +48,6 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rbStartPoint = new System.Windows.Forms.RadioButton();
             this.rbEndPoint = new System.Windows.Forms.RadioButton();
-            this.pnlNextFrame = new System.Windows.Forms.Panel();
-            this.pnlPreviousFrame = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -71,8 +71,10 @@
             this.imageBox.TabStop = false;
             this.imageBox.Click += new System.EventHandler(this.ImgBoxClick);
             this.imageBox.Paint += new System.Windows.Forms.PaintEventHandler(this.DrawToImageBox);
+            this.imageBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.imageBox_MouseDown);
             this.imageBox.MouseEnter += new System.EventHandler(this.ImgBoxMouseEnter);
             this.imageBox.MouseLeave += new System.EventHandler(this.ImgBoxMouseLeave);
+            this.imageBox.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imageBox_MouseUp);
             // 
             // checkedListBox1
             // 
@@ -127,6 +129,40 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(960, 31);
             this.panel1.TabIndex = 7;
+            // 
+            // pnlPreviousFrame
+            // 
+            this.pnlPreviousFrame.AccessibleDescription = "Previous frame";
+            this.pnlPreviousFrame.AccessibleName = "";
+            this.pnlPreviousFrame.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlPreviousFrame.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlPreviousFrame.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlPreviousFrame.BackgroundImage")));
+            this.pnlPreviousFrame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pnlPreviousFrame.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnlPreviousFrame.Location = new System.Drawing.Point(887, 0);
+            this.pnlPreviousFrame.Name = "pnlPreviousFrame";
+            this.pnlPreviousFrame.Size = new System.Drawing.Size(31, 30);
+            this.pnlPreviousFrame.TabIndex = 14;
+            this.pnlPreviousFrame.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPreviousFrame);
+            this.pnlPreviousFrame.MouseEnter += new System.EventHandler(this.HighlightIcon);
+            this.pnlPreviousFrame.MouseLeave += new System.EventHandler(this.ResetIconBack);
+            // 
+            // pnlNextFrame
+            // 
+            this.pnlNextFrame.AccessibleDescription = "Next frame";
+            this.pnlNextFrame.AccessibleName = "";
+            this.pnlNextFrame.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlNextFrame.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlNextFrame.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlNextFrame.BackgroundImage")));
+            this.pnlNextFrame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pnlNextFrame.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnlNextFrame.Location = new System.Drawing.Point(924, 0);
+            this.pnlNextFrame.Name = "pnlNextFrame";
+            this.pnlNextFrame.Size = new System.Drawing.Size(31, 30);
+            this.pnlNextFrame.TabIndex = 13;
+            this.pnlNextFrame.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetNextFrame);
+            this.pnlNextFrame.MouseEnter += new System.EventHandler(this.HighlightIcon);
+            this.pnlNextFrame.MouseLeave += new System.EventHandler(this.ResetIconBack);
             // 
             // pnlSplitTracks
             // 
@@ -274,40 +310,6 @@
             this.rbEndPoint.TabStop = true;
             this.rbEndPoint.Text = "end point";
             this.rbEndPoint.UseVisualStyleBackColor = true;
-            // 
-            // pnlNextFrame
-            // 
-            this.pnlNextFrame.AccessibleDescription = "Next frame";
-            this.pnlNextFrame.AccessibleName = "";
-            this.pnlNextFrame.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlNextFrame.BackColor = System.Drawing.SystemColors.Control;
-            this.pnlNextFrame.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlNextFrame.BackgroundImage")));
-            this.pnlNextFrame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pnlNextFrame.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlNextFrame.Location = new System.Drawing.Point(924, 0);
-            this.pnlNextFrame.Name = "pnlNextFrame";
-            this.pnlNextFrame.Size = new System.Drawing.Size(31, 30);
-            this.pnlNextFrame.TabIndex = 13;
-            this.pnlNextFrame.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetNextFrame);
-            this.pnlNextFrame.MouseEnter += new System.EventHandler(this.HighlightIcon);
-            this.pnlNextFrame.MouseLeave += new System.EventHandler(this.ResetIconBack);
-            // 
-            // pnlPreviousFrame
-            // 
-            this.pnlPreviousFrame.AccessibleDescription = "Previous frame";
-            this.pnlPreviousFrame.AccessibleName = "";
-            this.pnlPreviousFrame.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlPreviousFrame.BackColor = System.Drawing.SystemColors.Control;
-            this.pnlPreviousFrame.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlPreviousFrame.BackgroundImage")));
-            this.pnlPreviousFrame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pnlPreviousFrame.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlPreviousFrame.Location = new System.Drawing.Point(887, 0);
-            this.pnlPreviousFrame.Name = "pnlPreviousFrame";
-            this.pnlPreviousFrame.Size = new System.Drawing.Size(31, 30);
-            this.pnlPreviousFrame.TabIndex = 14;
-            this.pnlPreviousFrame.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPreviousFrame);
-            this.pnlPreviousFrame.MouseEnter += new System.EventHandler(this.HighlightIcon);
-            this.pnlPreviousFrame.MouseLeave += new System.EventHandler(this.ResetIconBack);
             // 
             // TrackEditorForm
             // 

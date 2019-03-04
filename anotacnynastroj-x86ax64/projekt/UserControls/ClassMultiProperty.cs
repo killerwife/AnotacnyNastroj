@@ -81,6 +81,11 @@ namespace Projekt.UserControls
                 cmbAtribute.SelectedItem = newValue;
                 if(!ClassName.Equals(""))SaveNewValueOfAtribute(newValue);
             }
+
+            if (!newValue.Equals("") && !cmbAtribute.Text.Equals(cmbAtribute.SelectedItem))//pouzivatel vpisal hodnotu rucne a cmb ju uz obsahuje
+            {
+                cmbAtribute.SelectedItem = cmbAtribute.Text;
+            }
             return ((cmbAtribute.SelectedItem) ?? "").ToString();
         }
 
