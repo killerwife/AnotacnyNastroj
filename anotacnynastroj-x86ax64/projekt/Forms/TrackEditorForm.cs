@@ -935,7 +935,7 @@ namespace Projekt.Forms
 
             if (String.Compare(wBb.Properties.AtributesValue[bbIndex], "", false) == 0)
             {
-                ChangeSelectedId();
+                // ChangeSelectedId();
                 wBb.Properties.AtributesValue[bbIndex] = _selectedObj;
             }
             else
@@ -972,7 +972,17 @@ namespace Projekt.Forms
             }
             else
             {
-                newIndex = Convert.ToInt32(checkedListBox1.Items[checkedListBox1.Items.Count - 1]) + 1;
+                List<Int32> usedValues = new List<Int32>();
+                foreach (var data in checkedListBox1.Items)
+                    usedValues.Add(Convert.ToInt32(data.ToString()));
+                usedValues.Sort();
+                foreach (var value in usedValues)
+                {
+                    if (value == newIndex)
+                        ++newIndex;
+                    else
+                        break;
+                }
             }
 
             return newIndex;
