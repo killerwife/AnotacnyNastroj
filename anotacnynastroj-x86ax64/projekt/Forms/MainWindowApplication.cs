@@ -410,7 +410,7 @@ namespace Projekt.Forms
             }            
         }
 
-        private void SavePropertyFor(DrawObject drObj)
+        public void SavePropertyFor(DrawObject drObj)
         {
             if (drObj == null || (cmbClass.SelectedItem == null)) return;
 
@@ -468,7 +468,7 @@ namespace Projekt.Forms
         /// <summary>
         /// Refresh poloziek v comboboxe po pridani dalsieho.
         /// </summary>
-        private void RefreshComboBox()
+        public void RefreshComboBox()
         {
             cmbAllObject.Items.Clear();
             cmbAllObject.ValueMember = "Value";

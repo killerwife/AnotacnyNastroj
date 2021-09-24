@@ -11,7 +11,8 @@ namespace Projekt.Forms
     {
         private MainWindowApplication _mainWin;
         private BaseFigure _currentImg;
-        private string _selectedObj;        
+        private string _selectedObj;
+        private BoundingBox _selectedDrawObj;
         private int _imageNum;
         private int _gapSize;
         private int _framesPlus;
@@ -33,7 +34,8 @@ namespace Projekt.Forms
         {
             InitializeComponent();
             _mainWin = paMain;
-            _selectedObj = null;            
+            _selectedObj = null;
+            _selectedDrawObj = null;
             BBtracks = new List<BoundingBox>();
             _gapSize = 3;
             _activeTool = 0;
@@ -173,15 +175,16 @@ namespace Projekt.Forms
 
                 int num;
                 int trIdIndex = Array.IndexOf(paObj.Properties.AtributesName, "track_id");
+                bool init = true;
                 if (trIdIndex >= 0)
                 {
-                    if (String.Compare(paObj.Properties.AtributesValue[trIdIndex], "", false) != 0 && int.TryParse(paObj.Properties.AtributesValue[trIdIndex], out num))
+                    _selectedObj = paObj.Properties.AtributesValue[trIdIndex];
+                    if (_selectedObj == "")
                     {
-                        _selectedObj = paObj.Properties.AtributesValue[trIdIndex];                        
-                    }
-                    else
-                    {
-                        _selectedObj = null;                        
+                        init = false;
+                        _selectedDrawObj = (BoundingBox)paObj;
+                        if (_activeTool == 1)
+                            ChangeSelectedId();
                     }
                 }
                 else
@@ -192,26 +195,29 @@ namespace Projekt.Forms
                 BBtracks.Clear();
                 if (_selectedObj != null)
                 {
-                    for (int i = 0; i < AllImages.Count; i++)
+                    if (init)
                     {
-                        for (int j = 0; j < AllImages[i].BoundBoxes.Count; j++)
+                        for (int i = 0; i < AllImages.Count; i++)
                         {
-                            var ind = Array.IndexOf(AllImages[i].BoundBoxes[j].Properties.AtributesName, "track_id");
-                            if (ind >= 0)
+                            for (int j = 0; j < AllImages[i].BoundBoxes.Count; j++)
                             {
-                                if (String.Compare(AllImages[i].BoundBoxes[j].Properties.AtributesValue[ind], _selectedObj, false) == 0)
+                                var ind = Array.IndexOf(AllImages[i].BoundBoxes[j].Properties.AtributesName, "track_id");
+                                if (ind >= 0)
                                 {
-                                    BBtracks.Add(AllImages[i].BoundBoxes[j]);
-                                    break;
+                                    if (String.Compare(AllImages[i].BoundBoxes[j].Properties.AtributesValue[ind], _selectedObj, false) == 0)
+                                    {
+                                        BBtracks.Add(AllImages[i].BoundBoxes[j]);
+                                        break;
+                                    }
                                 }
                             }
                         }
-                    }
 
-                    var itPos = checkedListBox1.Items.IndexOf(_selectedObj);
-                    if (itPos >= 0)
-                    {
-                        checkedListBox1.SetItemCheckState(itPos, CheckState.Indeterminate);
+                        var itPos = checkedListBox1.Items.IndexOf(_selectedObj);
+                        if (itPos >= 0)
+                        {
+                            checkedListBox1.SetItemCheckState(itPos, CheckState.Indeterminate);
+                        }
                     }
                 }
                 else
@@ -648,6 +654,9 @@ namespace Projekt.Forms
         {
             if (_selectedObj != null)
             {
+                if (_selectedObj == "")
+                    ChangeSelectedId();
+
                 if (_activeTool == 1)
                 {
                     _activeTool = 0;
@@ -994,22 +1003,46 @@ namespace Projekt.Forms
             var changed = 0;
             int bbIndex = -1;
 
-            for (int i = _imageNum + 1; i < AllImages.Count; i++)
+            if (_selectedObj == "") // need to assign new value
             {
-                for (int j = 0; j < AllImages[i].BoundBoxes.Count; j++)
+                _selectedObj = newIndex.ToString();
+                for (int j = 0; j < AllImages[_imageNum].BoundBoxes.Count; j++)
                 {
-                    bbIndex = Array.IndexOf(AllImages[i].BoundBoxes[j].Properties.AtributesName, "track_id");
+                    bbIndex = Array.IndexOf(AllImages[_imageNum].BoundBoxes[j].Properties.AtributesName, "track_id");
                     if (bbIndex >= 0)
                     {
-                        var trId = AllImages[i].BoundBoxes[j].Properties.AtributesValue[bbIndex];
-                        if (String.Compare(trId, _selectedObj, false) == 0)
+                        var trId = AllImages[_imageNum].BoundBoxes[j].Properties.AtributesValue[bbIndex];
+                        if (AllImages[_imageNum].BoundBoxes[j].PointA.Equals(_selectedDrawObj.PointA) && AllImages[_imageNum].BoundBoxes[j].PointB.Equals(_selectedDrawObj.PointB))
                         {
-                            AllImages[i].BoundBoxes[j].Properties.AtributesValue[bbIndex] = newIndex.ToString();
-                            changed++;
-                            break;    
+                            AllImages[_imageNum].BoundBoxes[j].Properties.AtributesValue[bbIndex] = newIndex.ToString();
+                            break;
                         }
                     }
-                }        
+                }
+
+                _mainWin.RefreshComboBox();
+                _selectedDrawObj = null;
+                changed++;
+            }
+            else
+            {
+                for (int i = _imageNum + 1; i < AllImages.Count; i++)
+                {
+                    for (int j = 0; j < AllImages[i].BoundBoxes.Count; j++)
+                    {
+                        bbIndex = Array.IndexOf(AllImages[i].BoundBoxes[j].Properties.AtributesName, "track_id");
+                        if (bbIndex >= 0)
+                        {
+                            var trId = AllImages[i].BoundBoxes[j].Properties.AtributesValue[bbIndex];
+                            if (String.Compare(trId, _selectedObj, false) == 0)
+                            {
+                                AllImages[i].BoundBoxes[j].Properties.AtributesValue[bbIndex] = newIndex.ToString();
+                                changed++;
+                                break;
+                            }
+                        }
+                    }
+                }
             }
 
             if (changed > 0)
